@@ -1,15 +1,34 @@
-<div style="display:flex; justify-content:center; background:#000; padding:20px;">
+<style>
+  /* Remove scrollbars for this section */
+  html, body {
+      overflow: hidden !important;
+  }
+  
+  .no-scroll-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #000;
+      padding: 0;
+      margin: 0;
+  }
+
+  .no-scroll-container video {
+      width: 100%;
+      max-width: 1200px;
+      height: auto;
+      border-radius: 12px;
+      display: block;
+  }
+</style>
+
+<div class="no-scroll-container">
     <video 
         src="https://sails.dhfm.in/wp-content/uploads/2025/11/footer_globe.mp4"
         autoplay 
         loop 
         muted 
         playsinline
-        style="width:80%; max-width:1000px; border-radius:12px; outline:none; border:none; box-shadow:0 0 25px rgba(0,0,0,0.5);"
-    >
-    </video>
+    ></video>
 </div>
-
-<p style="text-align:center; font-size:16px; color:#ffffff; margin-top:15px;">
-    Your centralized space for updates, resources, and collaboration.
-</p>
